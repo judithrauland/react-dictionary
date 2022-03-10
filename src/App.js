@@ -1,11 +1,25 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">Dictionary App</header>
+      <div className="container">
+        <header className="App-header">Dictionary App</header>
+        <Dictionary />
+        <div className="App-footer">
+          <small>
+            <a
+              href="https://github.com/judithrauland/react-dictionary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-source code
+            </a>
+            {""} by Judith Rauland
+          </small>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
