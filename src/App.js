@@ -9,7 +9,7 @@ export default function App() {
           <h1>What word do you want to look up?</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="sunflower" />
+          <Dictionary defaultKeyword="simplicity" />
         </main>
         <div className="App-footer">
           <small>
@@ -20,7 +20,11 @@ export default function App() {
             >
               Open-source code
             </a>
-            {""} by Judith Rauland
+            {""} by Judith Rauland. Photos provided by {""}
+            <a href="https://www.pexels.com" target="_blank" rel="noreferrer">
+              Pexels
+            </a>
+            .
           </small>
         </div>
       </div>

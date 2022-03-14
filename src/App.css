@@ -8,6 +8,11 @@ body {
   background: var(--light-color);
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 18px;
   font-weight: bold;
