@@ -1,0 +1,10 @@
+i {
+  color: var(--accent-color);
+}
+i:hover {
+  color: var(--accent-color-light);
+}
+
+.Audio {
+  display: inline-block;
+}
