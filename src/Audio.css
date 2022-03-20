@@ -1,7 +1,7 @@
-i {
+.fa-head-side-cough {
   color: var(--accent-color);
 }
-i:hover {
+.fa-head-side-cough:hover {
   color: var(--accent-color-light);
 }
 

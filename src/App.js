@@ -6,7 +6,12 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>What word do you want to look up?</h1>
+          <h1>
+            <span>
+              <i class="fas fa-quote-left"></i>{" "}
+            </span>
+            Dictionary
+          </h1>
         </header>
         <main>
           <Dictionary defaultKeyword="simplicity" />
