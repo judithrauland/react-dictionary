@@ -57,6 +57,7 @@ export default function Dictionary(props) {
         <section>
           <h2 className="dict-question">What word do you want to look up?</h2>
           <form onSubmit={handleSubmit}>
+            <i className="fas fa-search"></i>
             <input
               type="search"
               onChange={handleKeywordChange}

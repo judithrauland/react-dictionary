@@ -3,24 +3,31 @@
   padding: 30px;
   border-radius: 8px;
   margin: 20px 0;
+  box-shadow: 5px 10px 15px rgb(0, 0, 0, 15%);
 }
 
 .Dictionary input {
-  width: 100%;
   padding: 6px 4px;
-  border-radius: 6px;
-  border: 1px solid var(--accent-color-light);
+  border: none;
+  border-bottom: 2px solid var(--accent-color-light);
+  width: 85%;
 }
 
-.Dictionary button {
-  background-color: var(--accent-color);
-  color: white;
-  border-radius: 4px;
+[type="search"] {
+  outline: none;
+  margin-left: 50px;
 }
 
 .dict-question {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: bold;
+  color: var(--accent-color);
+}
+
+.Dictionary .fa-search {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
   color: var(--accent-color);
 }

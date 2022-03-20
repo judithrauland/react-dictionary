@@ -15,7 +15,7 @@ export default function ImagesResult(props) {
                   rel="noreferrer"
                 >
                   <img
-                    className="img-fluid"
+                    className="img-fluid mx-auto"
                     src={eachImage.src.tiny}
                     alt={eachImage.alt}
                   />
