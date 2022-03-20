@@ -59,7 +59,7 @@ export default function Dictionary(props) {
             {" "}
             <input type="search" onChange={handleKeywordChange} />
             <button type="submit" value="Search">
-              <i class="fas fa-search"></i>
+              <i className="fas fa-search"></i>
             </button>
           </form>
         </section>
