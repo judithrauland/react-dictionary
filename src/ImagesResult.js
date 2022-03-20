@@ -8,7 +8,7 @@ export default function ImagesResult(props) {
         <div className="row">
           {props.image.map(function (eachImage, index) {
             return (
-              <div className="col-3" key={index}>
+              <div className="col-sm" key={index}>
                 <a
                   href={eachImage.src.original}
                   target="_blank"

@@ -8,13 +8,13 @@ export default function App() {
         <header className="App-header">
           <h1>
             <span>
-              <i class="fas fa-quote-left"></i>{" "}
+              <i className="fas fa-quote-left"></i>{" "}
             </span>
             Dictionary
           </h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="simplicity" />
+          <Dictionary defaultKeyword="lemon" />
         </main>
         <div className="App-footer">
           <small>

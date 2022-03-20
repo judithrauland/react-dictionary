@@ -1,7 +1,7 @@
-.fa-head-side-cough {
+.fa-volume-up {
   color: var(--accent-color);
 }
-.fa-head-side-cough:hover {
+.fa-volume-up:hover {
   color: var(--accent-color-light);
 }
 

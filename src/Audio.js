@@ -12,7 +12,7 @@ export default function Audio(props) {
           audio.play();
         }}
       >
-        <i className="fas fa-head-side-cough"></i>
+        <i className="fas fa-volume-up"></i>{" "}
       </span>
     </div>
   );
