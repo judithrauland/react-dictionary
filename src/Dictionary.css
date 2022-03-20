@@ -7,12 +7,13 @@
 }
 
 .Dictionary input {
+  -webkit-appearance: none;
   background-color: transparent;
   outline: none;
   margin-left: 50px;
   padding: 6px 4px;
   border: none;
-  border-radius: 0% !important;
+  border-radius: 0;
   border-bottom: 2px solid var(--accent-color-light);
   width: 85%;
 }

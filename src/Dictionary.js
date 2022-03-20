@@ -60,7 +60,6 @@ export default function Dictionary(props) {
             <i className="fas fa-search"></i>
             <input
               type="search"
-              autoFocus="on"
               onChange={handleKeywordChange}
               defaultValue={props.defaultKeyword}
             />
